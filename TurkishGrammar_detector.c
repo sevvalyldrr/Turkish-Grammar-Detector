@@ -1,8 +1,3 @@
-/* Sevval YILDIRIM
-   Yazilimm Muhendisligi-210229009
-   Programlama Lab */
-
-
 #include <locale.h>
 #include <string.h>
 #include <stdio.h>
@@ -14,17 +9,17 @@
 #define SIZE_TEXT 5000
 #define SIZE_WORD 500
 #define SIZE_LENGTH 2000
-#define ALPHABET "abc+defghijklmnoprstuvyzABCDEFGHIJKLMNOPRSTUVYZ"
-#define VOWEL "aeiouAEIOU"
-#define CONSONENT "bcdfghjklmnprstvyzBCDFGHJKLMNPRSTVYZ"
-#define SOFT_CONSONENT "bcdgjlmnrvyzBCDGJLMNRVYZ"
-#define STRONG_CONSONENT "fhkpstFHKPST"
-#define BOLD_VOWEL "aouAIOU"
-#define NARROW_VOWEL "eiE"
-#define UNROUNDED_VOWEL "aeiAEI"
-#define ROUNDED_VOWEL "ouOU"
-#define LABIAL_VOWEL "aeuAEU"
-#define UNLABIAL_VOWEL "oiOI"
+#define ALPHABET "abcÅ¾+defgÅ¾hÅ¾ijklmnoÅ¾prsÅ¾tuÅ¾vyzABCÅ¾DEFGÅ¾HIÅ¾JKLMNOÅ¾PRSÅ¾TUÅ¾VYZ"
+#define VOWEL "aeÅ¾ioÅ¾uÅ¾AEIÅ¾OÅ¾UÅ¾"
+#define CONSONENT "bcÅ¾dfgÅ¾hjklmnprsÅ¾tvyzBCÅ¾DFGÅ¾HJKLMNPRSÅ¾TVYZ"
+#define SOFT_CONSONENT "bcdgÅ¾jlmnrvyzBCDGÅ¾JLMNRVYZ"
+#define STRONG_CONSONENT "Å¾fhkpsÅ¾tÅ¾FHKPSÅ¾T"
+#define BOLD_VOWEL "aÅ¾ouAIOU"
+#define NARROW_VOWEL "eiÅ¾Å¾EÅ¾Å¾Å¾"
+#define UNROUNDED_VOWEL "aeÅ¾iAEIÅ¾"
+#define ROUNDED_VOWEL "oÅ¾uÅ¾OÅ¾UÅ¾"
+#define LABIAL_VOWEL "aeuÅ¾AEUÅ¾"
+#define UNLABIAL_VOWEL "oÅ¾Å¾iOÅ¾IÅ¾"
 
 
 
@@ -121,7 +116,7 @@ else if(strcmp(choice,"kucuk unlu uyumu")==0)
     printf("Number of labial harmony=%d\n\n",labialharmony(word));
 }
 
-else if(strcmp(choice,"sert unsuz says")==0)
+else if(strcmp(choice,"sert unsuz sayÅ¾sÅ¾")==0)
 {
    printf("Number of strong consonent=%d\n",strongConsonent(text));
 }
