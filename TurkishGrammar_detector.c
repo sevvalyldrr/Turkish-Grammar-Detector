@@ -116,7 +116,7 @@ else if(strcmp(choice,"kucuk unlu uyumu")==0)
     printf("Number of labial harmony=%d\n\n",labialharmony(word));
 }
 
-else if(strcmp(choice,"sert unsuz sayžsž")==0)
+else if(strcmp(choice,"sert unsuz sayisi")==0)
 {
    printf("Number of strong consonent=%d\n",strongConsonent(text));
 }
